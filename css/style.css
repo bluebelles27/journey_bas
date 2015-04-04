@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*****************
+Test Styles
+******************/
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/* Navigation Section */
+
+.top-navigation {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	border-bottom: 1px solid #DDD;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 14px;
+}
+
+.top-navigation .links {
+	float: right;
+	color: #838994;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.03em;
+	margin-top: 1.7rem;
+	-webkit-font-smoothing: antialiased;
+}
+.top-navigation a {
+	color: #838994;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #333333;
+	cursor: pointer;
+}
+
+.top-navigation .links li {
+	float: right;
+	display: inline-block;
+	margin-left: 1.563rem;
+}
+
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 600;
+}
+
+/* General Content Div Style */
+
+.content {
+	padding: 0px 15px;
+	margin: 0 auto;
+	width: 500px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.blur {
+	background-color: rgba(120, 120, 120, 0.2);
+	border-radius: 20px;
+	-webkit-box-shadow: 10px 10px 158px 0px rgba(118,120,120,1);
+	-moz-box-shadow: 10px 10px 158px 0px rgba(118,120,120,1);
+	box-shadow: 10px 10px 158px 0px rgba(118,120,120,1);
+}
+
+.content-mid {
+	padding: 0px 15px;
+	margin: 0 auto;
+	width: 757px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.content-mid h2 {
+	margin-top: 3rem;
+}
+
+.content-mid p {
+	margin-top: 1.5rem;
+}
+/*Introduction Styling*/
+
+.introduction {
+	background-image: url('../images/beach.jpeg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+
+.introduction h1, .introduction h3 {
+	color: #33CCFF;
+	text-shadow: 2px 2px #0029A3;
+	text-align: center;
+	font-weight: 300;
+}
+
+.introduction h1 {
+	margin-top: 16.5rem;
+	font-size: 3.125rem;
+}
+
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+.introduction .buttons {
+	color: #fff;
+	text-align: center;
+	margin-top: 1.563rem;
+}
+
+.big-button {
+	margin: 0 auto;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	line-height: 1.33;
+	display: block;
+	width: 9.688rem;
+	background-color: #3042a1;
+	border-color: #0029A3;
+	color: #fff;
+	font-size: 1.125rem;
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: #0029A3;
+}
+
+/* Footer */
+
+
+footer {
+	display: block;
+	text-align: center;
+}

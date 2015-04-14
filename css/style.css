@@ -106,46 +106,7 @@ a:hover {
 	font-weight: 600;
 }
 
-/* General Content Div Style */
 
-.content {
-	padding: 0px 15px;
-	margin: 0 auto;
-	width: 500px;
-	margin: 0 auto;
-	font-family: 'Roboto', sans-serif;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
-}
-
-.blur {
-	background-color: rgba(120, 120, 120, 0.2);
-	border-radius: 20px;
-	-webkit-box-shadow: 10px 10px 158px 0px rgba(118,120,120,1);
-	-moz-box-shadow: 10px 10px 158px 0px rgba(118,120,120,1);
-	box-shadow: 10px 10px 158px 0px rgba(118,120,120,1);
-}
-
-.content-mid {
-	padding: 0px 15px;
-	margin: 0 auto;
-	width: 757px;
-	margin: 0 auto;
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;         /* Opera/IE 8+ */
-}
-
-.content-mid h2 {
-	margin-top: 3rem;
-}
-
-.content-mid p {
-	margin-top: 1.5rem;
-}
 /*Introduction Styling*/
 
 .introduction {
@@ -199,10 +160,59 @@ button:hover{
 	background-color: #0029A3;
 }
 
+
+/* General Content Div Style */
+
+.content-mid {
+	padding: 0px 15px;
+	margin: 0 auto;
+	width: 500px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	color: #0029A3;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.blur {
+	background-color: rgba(120, 120, 120, 0.2);
+	border-radius: 20px;
+	-webkit-box-shadow: 10px 10px 158px 0px rgba(118,120,120,1);
+	-moz-box-shadow: 10px 10px 158px 0px rgba(118,120,120,1);
+	box-shadow: 10px 10px 158px 0px rgba(118,120,120,1);
+}
+
+.content-mid {
+	padding: 0px 15px;
+	margin: 0 auto;
+	width: 757px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.content-mid h2 {
+	margin-top: 3rem;
+}
+
+.content-mid p {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.content-mid img {
+	border-radius: 10%;
+}
+
 /* Footer */
 
 
 footer {
 	display: block;
 	text-align: center;
+	color: #0029A3;
 }
